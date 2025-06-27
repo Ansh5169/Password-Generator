@@ -44,7 +44,7 @@ Password Generator/
 ```
 
 ## Credits
-- Made with ♥ by [Ansh Gupta](#)
+- Made with ♥ by Ansh Gupta
 - [Font Awesome](https://fontawesome.com/) for icons
 
 ## License
