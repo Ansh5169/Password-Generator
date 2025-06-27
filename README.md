@@ -15,6 +15,8 @@ A modern, customizable password generator web app to help you create secure pass
 
 ![Password Generator Screenshot](Screenshot.png) 
 
+[Live Demo](https://password-generator-by-ansh.netlify.app/)
+
 ## Getting Started
 
 ### 1. Clone the repository
