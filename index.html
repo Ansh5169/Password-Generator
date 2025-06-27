@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <span class="title">&gt; Generate a secure password</span>
+            <div class="theme-toggle">
+                <span class="theme-icon"><i class="fa-solid fa-moon" style="color: #FFD43B;"></i></span>
+                <input type="checkbox" id="theme-switch">
+                <label for="theme-switch"></label>
+                <span class="theme-icon"><i class="fa-solid fa-sun" style="color: #FFD43B;"></i></span>
+            </div>
+        </div>
+        <div class="password-box">
+            <input type="text" id="password" readonly>
+            <button id="copy-btn" title="Copy"><i class="fa-regular fa-clone"></i></button>
+        </div>
+        <hr>
+        <div class="customize">
+            <span class="subtitle">Customize your password</span>
+            <div class="options-box">
+                <div class="options">
+                    <label><input type="checkbox" id="uppercase" checked> Uppercase</label>
+                    <label><input type="checkbox" id="lowercase" checked> Lowercase</label>
+                    <label><input type="checkbox" id="numbers" checked> Numeric</label>
+                    <label><input type="checkbox" id="symbols"> Symbols</label>
+                </div>
+                <div class="length-box">
+                    <span>Password Length:</span>
+                    <input type="number" id="length" min="4" max="40" value="20">
+                    <input type="range" id="length-range" min="4" max="40" value="20">
+                </div>
+            </div>
+        </div>
+        <button id="generate-btn">Generate</button>
+        <footer>
+            Made with <span style="color: #ff4d4d">♥</span> by <a href="#" id="author">Ansh Gupta</a>.
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
